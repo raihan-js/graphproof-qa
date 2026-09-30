@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphproof-qa"
+version = "0.1.0"
+description = "Small-model QA that compiles to executable graph queries with proof traces"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Raihan Sikder"}
+]
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.36.0",
+    "datasets>=2.16.0",
+    "peft>=0.7.0",
+    "accelerate>=0.25.0",
+    "lark>=1.1.0",
+    "xgrammar>=0.1.0",
+    "scipy>=1.11.0",
+    "pyyaml>=6.0",
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0",
+    "gdown>=5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[project.scripts]
+graphproof = "graphproof.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"

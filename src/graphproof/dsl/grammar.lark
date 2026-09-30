@@ -1,0 +1,42 @@
+// GraphProof path-query DSL (v0.1).
+// A query names a start entity, then a chain of directed relation hops,
+// an optional filter on the final node, and a return variable.
+//
+//   START "Forrest Gump" -> directed_by RETURN ?x
+//   START "Tom Hanks" -> acted_in -> starred_actors RETURN ?x
+//   START "Forrest Gump" -> release_year RETURN ?x WHERE ?x.value >= 1990
+//   START "Jawbreaker" -> starred_actors <- starred_actors -> directed_by
+//     RETURN ?x EXCEPT "Jawbreaker"
+//
+// EXCEPT removes one entity from traversal and answers. It encodes
+// MetaQA's answer convention explicitly: the query entity itself is never
+// a valid answer ("movies like X" never lists X), and paths may not route
+// back through it. A production DSL would generalize this; here it keeps
+// the executor pure and the exclusion checkable in the proof trace.
+
+start: query
+
+query: "START" entity hop+ "RETURN" var filter_clause? except_clause?
+
+entity: ESCAPED_STRING
+
+hop: ARROW RELATION
+
+filter_clause: "WHERE" var "." ATTRNAME COMPOP value
+
+except_clause: "EXCEPT" entity
+
+var: "?" CNAME
+
+value: NUMBER | ESCAPED_STRING
+
+RELATION: /[a-z][a-z0-9_]*/
+ARROW: "->" | "<-"
+ATTRNAME: /[a-z][a-z0-9_]*/
+COMPOP: ">=" | "<=" | "==" | "!=" | ">" | "<"
+
+%import common.ESCAPED_STRING
+%import common.CNAME
+%import common.NUMBER
+%import common.WS
+%ignore WS

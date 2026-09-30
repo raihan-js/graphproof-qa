@@ -1,0 +1,32 @@
+# GraphProof-QA frozen manifest (v0.1.0 draft)
+
+manifest_version: "0.1.0"
+created: "2026-09-30"
+
+base_model:
+  id: "Qwen/Qwen2.5-1.5B-Instruct"
+  revision: "main"  # pin SHA once downloaded
+  dtype: "bfloat16"
+
+kb:
+  source: "MetaQA official (Google Drive via gdown)"
+  files: ["kb.txt", "1-hop/qa_train.txt", "2-hop/qa_train.txt", "3-hop/qa_train.txt",
+          "1-hop/qa_test.txt", "2-hop/qa_test.txt", "3-hop/qa_test.txt",
+          "1-hop/qtype_train.txt", "2-hop/qtype_train.txt", "3-hop/qtype_train.txt"]
+  checksums: {}  # filled by scripts/download_metaqa.py
+
+sampling:
+  temperature: 0.0
+  max_tokens: 256
+
+training:
+  method: "lora"
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  epochs: 3
+  lr: 2.0e-4
+
+eval:
+  sample_per_hop: 2000
+  seed: 42

@@ -1,0 +1,80 @@
+{
+  "1": {
+    "train_total": 96106,
+    "gold": 90969,
+    "remainder": 5137,
+    "distinct_templates": 123,
+    "by_template": {
+      "who acted in [ENT]": 153,
+      "the film [ENT] starred which actors": 142,
+      "who stars in [ENT]": 137,
+      "the movie [ENT] starred who": 135,
+      "who acted in the movie [ENT]": 125,
+      "who starred in [ENT]": 123,
+      "who are the actors in [ENT]": 118,
+      "the movie [ENT], when was it released": 114,
+      "what was the release year of [ENT]": 109,
+      "when was the movie [ENT] released": 106,
+      "what was the release date of the movie [ENT]": 104,
+      "what was the release year of the film [ENT]": 103,
+      "[ENT], when was it released": 101,
+      "what was the release date of the film [ENT]": 99,
+      "what year was the film [ENT] released": 97,
+      "what year was the movie [ENT] released": 94,
+      "what was the release date of [ENT]": 93,
+      "what was the release year of the movie [ENT]": 91,
+      "when was the film [ENT] released": 89,
+      "who directed the film [ENT]": 84
+    },
+    "examples": [
+      "what films can be described by [biographical?]",
+      "what movies can be described with [golden palm]",
+      "what movies can be described by [harry dean stanton]",
+      "which films are about [tennessee williams]",
+      "what movies can be described by [wim wenders]"
+    ]
+  },
+  "2": {
+    "train_total": 118980,
+    "gold": 118948,
+    "remainder": 32,
+    "distinct_templates": 27,
+    "by_template": {
+      "when were the films written by [ENT] released": 3,
+      "who acted in the films written by [ENT]": 2,
+      "what were the release dates of [ENT] written films": 2,
+      "who is listed as director of [ENT] written films": 2,
+      "who starred movies for the writer [ENT]": 1,
+      "who directed the films written by [ENT]": 1,
+      "what are the main languages in [ENT] starred movies": 1,
+      "when did the movies acted by [ENT] release": 1,
+      "what genres are the films acted by [ENT] in": 1,
+      "who directed the movies written by [ENT]": 1,
+      "the screenwriter [ENT] co-wrote films with who": 1,
+      "which person directed the films written by [ENT]": 1,
+      "who are the actors in the movies written by [ENT]": 1,
+      "the films written by [ENT] starred which actors": 1,
+      "the films written by [ENT] were directed by who": 1,
+      "who starred in the films written by [ENT]": 1,
+      "who are film co-writers of [ENT]": 1,
+      "the films written by [ENT] were released in which years": 1,
+      "who wrote movies together with [ENT]": 1,
+      "what types are the films written by [ENT]": 1
+    },
+    "examples": [
+      "who starred movies for the writer [Sister Kenny]",
+      "who directed the films written by [Lucie Aubrac]",
+      "what are the main languages in [Lemmy] starred movies",
+      "who acted in the films written by [Malcolm X]",
+      "when did the movies acted by [Lemmy] release"
+    ]
+  },
+  "3": {
+    "train_total": 114196,
+    "gold": 114196,
+    "remainder": 0,
+    "distinct_templates": 0,
+    "by_template": {},
+    "examples": []
+  }
+}

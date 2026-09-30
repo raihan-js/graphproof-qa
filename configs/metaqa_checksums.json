@@ -1,0 +1,45 @@
+{
+  "source": "hf-mirror:camazlucas/MetaQA",
+  "files": {
+    "kb.txt": {
+      "sha256": "9b4d3b3066266075ad1577b4beed68e6e112e76e1a29ed2cb00a2896d2b792af",
+      "bytes": 5220771
+    },
+    "1-hop/vanilla/qa_train.txt": {
+      "sha256": "bd2ab48b2672232785f7ed2983c892f41f2afe4f5ff4cb0e5f80e29e99b46d44",
+      "bytes": 6496601
+    },
+    "1-hop/vanilla/qa_dev.txt": {
+      "sha256": "3c68fa73a14d9b9616e49f08e2d8b65e024af417708306874fe4d398634620d3",
+      "bytes": 673670
+    },
+    "1-hop/vanilla/qa_test.txt": {
+      "sha256": "c57e9c2c4c05e5eec4503460042c09bfa3e80ea1a5ecaf361c92dd81d6c7bece",
+      "bytes": 675227
+    },
+    "2-hop/vanilla/qa_train.txt": {
+      "sha256": "f141e24f4d04aac7b32a9c6820ca9806bb49cabb2ca213066b992ed4f1fafeae",
+      "bytes": 17250659
+    },
+    "2-hop/vanilla/qa_dev.txt": {
+      "sha256": "a713ae6b4a7cdccfdda57ac99092f4114a1f8b0c4ba51b4466a15496a4ff6fbd",
+      "bytes": 2183998
+    },
+    "2-hop/vanilla/qa_test.txt": {
+      "sha256": "b1c4f1ad77f34a27e0e5a13c08b436c6f4c9a49dccd8d43639a569ee5cd906a1",
+      "bytes": 2150912
+    },
+    "3-hop/vanilla/qa_train.txt": {
+      "sha256": "5760a90c36e242b5be1304dd80a46c4c3a84f3d35ffb083276096248af144f62",
+      "bytes": 26427148
+    },
+    "3-hop/vanilla/qa_dev.txt": {
+      "sha256": "c638b99f97db93112f7a9ceec47675066cc9efc93b7ecd43e22c54ab531741d9",
+      "bytes": 3274801
+    },
+    "3-hop/vanilla/qa_test.txt": {
+      "sha256": "f4c2a801f864e80e809655a20b4b8c9904f4a2885a7f23850b2fabd8d38a6540",
+      "bytes": 3328337
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+
+# Bulk data (regenerate via scripts/; checksums in configs/)
+data/metaqa/raw/
+data/gold/
+data/models/
+data/cf/
+
+# Logs
+*.log
