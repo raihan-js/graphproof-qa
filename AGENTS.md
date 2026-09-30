@@ -44,7 +44,7 @@ Python, PyTorch, HF Transformers + PEFT (LoRA), xgrammar (schema grammar + ~43k 
 
 ### Milestones (20 days)
 
-1. **DSL + executor** (4d) — Lark grammar, executor, gold queries from qtype; ≥99% reproduction test.
+1. **DSL + executor** (4d) — ✅ COMPLETE (29 Sep 2026). Lark grammar + EXCEPT clause, dict executor with proof traces, gold queries for full train (1-hop 90,980/96,106; 2-hop 118,948/118,980; 3-hop 114,196/114,196; 324,124 total, 100% verified reproduction). Remainder = ambiguous-title 1-hop questions, listed in `data/remainder_report.json`. 26 tests green.
 2. **Three systems** (6d) — LoRA A/B/C; Hits@1 per hop; B parse-fail share; trie compile time.
 3. **Edited/incomplete graphs** (5d) — MetaQA-CF dataset; Hits@1 + abstain rate per condition.
 4. **Failure analysis + release** (5d) — 100 labelled failures with proof traces; repo + adapter + write-up stating what's true by construction.
