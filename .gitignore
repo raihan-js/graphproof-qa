@@ -15,3 +15,8 @@ data/cf/
 
 # Logs
 *.log
+
+# Training artifacts (adapters live on HuggingFace; runs in HF datasets)
+data/adapters/
+data/runs/
+data/train/

@@ -8,6 +8,7 @@ Hyperparameters per manifest: r=16, alpha=32, dropout=0.05, 3 epochs, lr=2e-4.
 """
 import argparse
 import json
+import os
 
 import torch
 from datasets import Dataset
@@ -15,6 +16,7 @@ from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
+    DataCollatorForLanguageModeling,
     Trainer,
     TrainingArguments,
 )
@@ -37,6 +39,10 @@ def main() -> None:
     ap.add_argument("--lr", type=float, default=2e-4)
     ap.add_argument("--batch", type=int, default=4)
     ap.add_argument("--grad-accum", type=int, default=4)
+    ap.add_argument("--resume", default=None,
+                    help="Resume from checkpoint dir (e.g. data/adapters/dsl/checkpoint-1500)")
+    ap.add_argument("--no-grad-ckpt", action="store_true",
+                    help="Disable gradient checkpointing (faster, more VRAM)")
     args = ap.parse_args()
 
     print(f"Loading tokenizer + model from {args.model}...", flush=True)
@@ -53,9 +59,10 @@ def main() -> None:
 
     def tokenize(row):
         text = tok.apply_chat_template(row["messages"], tokenize=False)
-        enc = tok(text, truncation=True, max_length=1024)
-        enc["labels"] = list(enc["input_ids"])
-        return enc
+        # NOTE: no manual "labels" — DataCollatorForLanguageModeling(mlm=False)
+        # clones padded input_ids into labels itself. Setting labels here
+        # breaks dynamic padding (ragged lists can't tensorize).
+        return tok(text, truncation=True, max_length=1024)
 
     ds = ds.map(tokenize, remove_columns=["messages", "hop"])
 
@@ -73,6 +80,7 @@ def main() -> None:
         learning_rate=args.lr,
         per_device_train_batch_size=args.batch,
         gradient_accumulation_steps=args.grad_accum,
+        gradient_checkpointing=not args.no_grad_ckpt,
         logging_steps=50,
         save_steps=500,
         save_total_limit=2,
@@ -81,7 +89,9 @@ def main() -> None:
         seed=42,
         report_to="none",
     )
-    Trainer(model=model, args=targs, train_dataset=ds).train()
+    Trainer(model=model, args=targs, train_dataset=ds,
+            data_collator=DataCollatorForLanguageModeling(tok, mlm=False)
+            ).train(resume_from_checkpoint=args.resume)
     model.save_pretrained(args.out)
     tok.save_pretrained(args.out)
     print(f"Saved adapter -> {args.out}", flush=True)

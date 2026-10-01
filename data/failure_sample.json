@@ -1,0 +1,1221 @@
+[
+  {
+    "question": "who co-wrote films with [Jeffrey M. Rosenbaum]",
+    "gold": [
+      "Norman Aladjem",
+      "Robert Gosnell"
+    ],
+    "response": "START \"Jeffrey M. Rosenbaum\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release years of the movies written by [Alexandre Breffort]",
+    "gold": [
+      "1963"
+    ],
+    "response": "START \"Alexandre Breffort\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by [Andrew Kurtzman] starred which actors",
+    "gold": [
+      "Jonathan Jackson"
+    ],
+    "response": "START \"Andrew Kurtzman\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the movies that share screenwriters with the movie [Road to Zanzibar] were in which languages",
+    "gold": [
+      "Japanese",
+      "English"
+    ],
+    "response": "START \"Road to Zanzibar\" -> directed_by <- written_by -> in_language RETURN ?x EXCEPT \"Road to Zanzibar\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "which screenwriters co-wrote movies with [Stieg Larsson]",
+    "gold": [
+      "Steven Zaillian"
+    ],
+    "response": "START \"Stieg Larsson\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the scriptwriter of [The Grand Seduction] also wrote movies",
+    "gold": [
+      "Delivery Man",
+      "Seducing Doctor Lewis",
+      "Starbuck"
+    ],
+    "response": "START \"The Grand Seduction\" -> directed_by <- written_by RETURN ?x EXCEPT \"The Grand Seduction\"",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who acted in the films written by [Glenn Leopold]",
+    "gold": [
+      "Van Heflin",
+      "Evelyn Keyes"
+    ],
+    "response": "START \"Glenn Leopold\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what types are the movies written by [Stephen Tolkin]",
+    "gold": [
+      "Drama",
+      "Crime"
+    ],
+    "response": "START \"Stephen Tolkin\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release dates of films written by the screenwriter of [Lake Placid]",
+    "gold": [
+      "1987",
+      "1996"
+    ],
+    "response": "START \"Lake Placid\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Lake Placid\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who is the writer of the film [The Angriest Man in Brooklyn]",
+    "gold": [
+      "Assi Dayan"
+    ],
+    "response": "START \"The Angriest Man in Brooklyn\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what types are the movies written by [Max Enscoe]",
+    "gold": [
+      "Drama",
+      "Romance"
+    ],
+    "response": "START \"Max Enscoe\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the languages spoken in the movies whose writers also wrote [Havoc]",
+    "gold": [
+      "Persian"
+    ],
+    "response": "START \"Havoc\" -> directed_by <- written_by -> in_language RETURN ?x EXCEPT \"Havoc\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when were the movies written by [Michael Jacoby] released",
+    "gold": [
+      "1968",
+      "1936"
+    ],
+    "response": "START \"Michael Jacoby\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the directors of the films written by the writer of [Captain America]",
+    "gold": [
+      "Tim Story",
+      "Jon Favreau"
+    ],
+    "response": "START \"Captain America\" -> directed_by <- written_by -> directed_by RETURN ?x EXCEPT \"Captain America\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what types are the movies starred by actors in [Full Moon in Paris]",
+    "gold": [
+      "Action",
+      "Drama",
+      "Comedy"
+    ],
+    "response": "START \"Full Moon in Paris\" -> directed_by <- starred_actors -> has_genre RETURN ?x EXCEPT \"Full Moon in Paris\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when did the movies written by [Something Wicked This Way Comes] writers release",
+    "gold": [
+      "1993",
+      "1969",
+      "1998",
+      "1966"
+    ],
+    "response": "START \"Something Wicked This Way Comes\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Something Wicked This Way Comes\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what are the languages spoken in the films written by [A Walk to Remember] screenwriters",
+    "gold": [
+      "Hungarian"
+    ],
+    "response": "START \"A Walk to Remember\" -> directed_by <- written_by -> in_language RETURN ?x EXCEPT \"A Walk to Remember\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who was [Brake] written by",
+    "gold": [
+      "Timothy Mannion"
+    ],
+    "response": "START \"Brake\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what genres do the movies that share screenwriters with [Good News] fall under",
+    "gold": [
+      "Comedy",
+      "Musical"
+    ],
+    "response": "START \"Good News\" -> directed_by <- written_by -> has_genre RETURN ?x EXCEPT \"Good News\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are movie co-writers of [Enrique Urbizu]",
+    "gold": [
+      "Michel Gaztambide"
+    ],
+    "response": "START \"Enrique Urbizu\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors in the movies written by the writer of [Crazy as Hell]",
+    "gold": [
+      "Marlon Brando",
+      "Vincent Spano",
+      "Virginia Madsen",
+      "Vincenzo Amato"
+    ],
+    "response": "START \"Crazy as Hell\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Crazy as Hell\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "the movies written by [Dudley Moore] were released in which years",
+    "gold": [
+      "2000",
+      "1967",
+      "1959",
+      "1939"
+    ],
+    "response": "START \"Dudley Moore\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what are the languages spoken in the movies written by [Asterix and the Big Fight] writers",
+    "gold": [
+      "French",
+      "English"
+    ],
+    "response": "START \"Asterix and the Big Fight\" -> directed_by <- directed_by -> in_language RETURN ?x EXCEPT \"Asterix and the Big Fight\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who acted in the movies written by the writer of [Grand Hotel]",
+    "gold": [
+      "Maureen O'Hara",
+      "Melvyn Douglas",
+      "Gloria Grahame"
+    ],
+    "response": "START \"Grand Hotel\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Grand Hotel\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by the screenwriter of [Jumping the Broom] were directed by who",
+    "gold": [
+      "Jonathan Lynn"
+    ],
+    "response": "START \"Jumping the Broom\" -> directed_by <- directed_by -> directed_by RETURN ?x EXCEPT \"Jumping the Broom\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release years the films written by [Cedric the Entertainer]",
+    "gold": [
+      "2000"
+    ],
+    "response": "START \"Cedric the Entertainer\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors of the screenwriter [Shane Kuhn]",
+    "gold": [
+      "Danny Trejo"
+    ],
+    "response": "START \"Shane Kuhn\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the languages spoken in the movies written by [Ernst Johannsen]",
+    "gold": [
+      "German"
+    ],
+    "response": "START \"Ernst Johannsen\" <- directed_by -> in_language RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what genres are the films written by [Last Night] screenwriters",
+    "gold": [
+      "Music"
+    ],
+    "response": "START \"Last Night\" -> directed_by <- directed_by -> has_genre RETURN ?x EXCEPT \"Last Night\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "which screenwriters co-wrote movies with [Nancy Savoca]",
+    "gold": [
+      "Francine Prose"
+    ],
+    "response": "START \"Nancy Savoca\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films acted by [John Wray] were written by who",
+    "gold": [
+      "Erich Maria Remarque"
+    ],
+    "response": "START \"John Wray\" <- starred_actors -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when did the movies written by [Rodney Carrington] release",
+    "gold": [
+      "2008"
+    ],
+    "response": "START \"Rodney Carrington\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who starred movies for the writer of [The A-Team]",
+    "gold": [
+      "Dermot Mulroney",
+      "Patrick Wilson",
+      "Frank Grillo",
+      "Brooklyn Decker"
+    ],
+    "response": "START \"The A-team\" -> written_by <- written_by -> starred_actors RETURN ?x EXCEPT \"The A-team\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "the movies that share writers with the movie [The Death and Life of Bobby Z] were in which genres",
+    "gold": [
+      "Thriller",
+      "Crime"
+    ],
+    "response": "START \"The Death and Life of Bobby Z\" -> directed_by <- written_by -> has_genre RETURN ?x EXCEPT \"The Death and Life of Bobby Z\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who acted in the movies written by the writer of [Side Effects]",
+    "gold": [
+      "Matt Damon",
+      "Gwyneth Paltrow"
+    ],
+    "response": "START \"Side Effects\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Side Effects\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the genres of the movies written by [Mason Hoffenberg]",
+    "gold": [
+      "Drama",
+      "Adventure"
+    ],
+    "response": "START \"Mason Hoffenberg\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "which movie did [Baya Kasmi] write",
+    "gold": [
+      "The Names of Love"
+    ],
+    "response": "START \"Baya Kasmi\" <- directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the movies that share screenwriters with the movie [Last of the Red Hot Lovers] were in which languages",
+    "gold": [
+      "English",
+      "Italian"
+    ],
+    "response": "START \"Last of the Red Hot Lovers\" -> directed_by <- written_by -> in_language RETURN ?x EXCEPT \"Last of the Red Hot Lovers\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films that share writers with the film [Coach Carter] were in which genres",
+    "gold": [
+      "Action",
+      "Drama"
+    ],
+    "response": "START \"Coach Carter\" -> directed_by <- written_by -> has_genre RETURN ?x EXCEPT \"Coach Carter\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors in the movies written by the writer of [She Done Him Wrong]",
+    "gold": [
+      "Mae West",
+      "Dom DeLuise",
+      "Jean Harlow",
+      "James Cagney"
+    ],
+    "response": "START \"She Done Him Wrong\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"She Done Him Wrong\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "who wrote movies together with [Mark Obmascik]",
+    "gold": [
+      "Howard Franklin"
+    ],
+    "response": "START \"Mark Obmascik\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by [Jean Ferry] starred which actors",
+    "gold": [
+      "Suzy Delair",
+      "Bernard Blier",
+      "Simone Renant",
+      "Louis Jouvet"
+    ],
+    "response": "START \"Jean Ferry\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who starred in the films whose screenwriters also wrote [The Three Burials of Melquiades Estrada]",
+    "gold": [
+      "Naomi Watts",
+      "Sean Penn",
+      "Danny Huston",
+      "Charlize Theron"
+    ],
+    "response": "START \"The Three Burials of Melquiades Estrada\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"The Three Burials of Melquiades Estrada\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the film [A Chorus Line] was written by who",
+    "gold": [
+      "Arnold Schulman",
+      "Nicholas Dante"
+    ],
+    "response": "START \"A Chorus Line\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release years the films written by [Jane Hamilton]",
+    "gold": [
+      "1999"
+    ],
+    "response": "START \"Jane Hamilton\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what genres do the movies that share screenwriters with [12 Years a Slave] fall under",
+    "gold": [
+      "Comedy",
+      "Crime"
+    ],
+    "response": "START \"12 Years a Slave\" -> written_by <- directed_by -> has_genre RETURN ?x EXCEPT \"12 Years a Slave\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the movie [Gerry] starred who",
+    "gold": [
+      "Matt Damon",
+      "Casey Affleck"
+    ],
+    "response": "START \"Gerry\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release dates of [Eric Garcia] written films",
+    "gold": [
+      "2003",
+      "2010"
+    ],
+    "response": "START \"Eric Garcia\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the screenwriter [Rupert Harvey] co-wrote films with who",
+    "gold": [
+      "David J. Schow",
+      "Joseph Lyle",
+      "Barry Opper"
+    ],
+    "response": "START \"Rupert Harvey\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who is listed as director of [Quinn K. Redeker] written films",
+    "gold": [
+      "Michael Cimino"
+    ],
+    "response": "START \"Quinn K. Redeker\" <- directed_by -> directed_by RETURN ?x EXCEPT \"Quinn K. Redeker\"",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the directors of the movies written by the writer of [The Boston Strangler]",
+    "gold": [
+      "Daniel Mann"
+    ],
+    "response": "START \"The Boston Strangler\" -> directed_by <- written_by -> directed_by RETURN ?x EXCEPT \"The Boston Strangler\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what is a movie written by [Christopher Wicking]",
+    "gold": [
+      "Cry of the Banshee"
+    ],
+    "response": "START \"Christopher Wicking\" <- directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the directors of the movies written by the writer of [We Don't Live Here Anymore]",
+    "gold": [
+      "Todd Field"
+    ],
+    "response": "START \"We Don't Live Here Anymore\" -> directed_by <- directed_by -> directed_by RETURN ?x EXCEPT \"We Don't Live Here Anymore\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release years of the films that share writers with the film [Ride Lonesome]",
+    "gold": [
+      "1990",
+      "1964",
+      "1973",
+      "1971"
+    ],
+    "response": "START \"Ride Lonesome\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Ride Lonesome\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "who wrote films together with [William Brent Bell]",
+    "gold": [
+      "Matthew Peterman"
+    ],
+    "response": "START \"William Brent Bell\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the primary languages in the movies written by the writer of [Breathless]",
+    "gold": [
+      "French",
+      "English"
+    ],
+    "response": "START \"Breathless\" -> directed_by <- directed_by -> in_language RETURN ?x EXCEPT \"Breathless\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what were the release years of the movies that share screenwriters with the movie [Bloodfist]",
+    "gold": [
+      "1997"
+    ],
+    "response": "START \"Bloodfist\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Bloodfist\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what movies did [Jacques Akchoti] write",
+    "gold": [
+      "Don't Look Back"
+    ],
+    "response": "START \"Jacques Akchoti\" <- directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the screenwriter of [Waking the Dead] also wrote which movies",
+    "gold": [
+      "Prime Cut",
+      "The Last of the Mohicans",
+      "Revolution",
+      "Endless Love"
+    ],
+    "response": "START \"Waking the Dead\" -> directed_by <- written_by RETURN ?x EXCEPT \"Waking the Dead\"",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what were the release years the films written by [Edmundo Desnoes]",
+    "gold": [
+      "1968"
+    ],
+    "response": "START \"Edmundo Desnoes\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who directed the films written by the writer of [You Belong to Me]",
+    "gold": [
+      "John Berry",
+      "Stanley Kubrick",
+      "Michael Curtiz",
+      "Joseph Losey"
+    ],
+    "response": "START \"You Belong to Me\" -> directed_by <- written_by -> directed_by RETURN ?x EXCEPT \"You Belong to Me\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "the films written by [Michael Turner] starred which actors",
+    "gold": [
+      "Bernie Coulson",
+      "Hugh Dillon",
+      "Callum Keith Rennie"
+    ],
+    "response": "START \"Michael Turner\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by [Petteri Nuottim\u00e4ki] were in which languages",
+    "gold": [
+      "Swedish"
+    ],
+    "response": "START \"Petteri Nuottim\u00e4ki\" <- directed_by -> in_language RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the movies written by the screenwriter of [Captain Newman, M.D.] starred who",
+    "gold": [
+      "Jane Russell",
+      "Frank Sinatra",
+      "Groucho Marx"
+    ],
+    "response": "START \"Captain Newman, M.D.\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Captain Newman, M.D.\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who wrote movies together with [Franco Marotta]",
+    "gold": [
+      "Sandro Continenza",
+      "Romano Migliorini",
+      "Sergio Grieco",
+      "Laura Toscano"
+    ],
+    "response": "START \"Franco Marotta\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by [Alan Caillou] were released in which years",
+    "gold": [
+      "1977",
+      "1989"
+    ],
+    "response": "START \"Alan Caillou\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films that share writers with the film [Smilin' Through] were in which genres",
+    "gold": [
+      "Mystery",
+      "Romance",
+      "Drama",
+      "Adventure"
+    ],
+    "response": "START \"Smilin' Through\" -> directed_by <- written_by -> has_genre RETURN ?x EXCEPT \"Smilin' Through\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "the movie [Where East Is East] starred who",
+    "gold": [
+      "Lon Chaney"
+    ],
+    "response": "START \"Where East Is East\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the genres of the films written by [Andrea Gyertson Nasfell]",
+    "gold": [
+      "Comedy"
+    ],
+    "response": "START \"Andrea Gyertson Nasfell\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "[Judge Dredd] is a film written by this person",
+    "gold": [
+      "John Wagner",
+      "Carlos Ezquerra"
+    ],
+    "response": "START \"Judge Dredd\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are movie co-writers of [Rich Eustis]",
+    "gold": [
+      "Cyra McFadden",
+      "Michael Elias"
+    ],
+    "response": "START \"Rich Eustis\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what genres are the movies written by [Chimamanda Ngozi Adichie] in",
+    "gold": [
+      "Drama"
+    ],
+    "response": "START \"Chimamanda Ngozi Adichie\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when were the movies written by [Rob Dawber] released",
+    "gold": [
+      "2001"
+    ],
+    "response": "START \"Rob Dawber\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors in the films written by the screenwriter of [Heathers]",
+    "gold": [
+      "Michael Keaton",
+      "Danny DeVito",
+      "Lucy Fry",
+      "Zoey Deutch"
+    ],
+    "response": "START \"Heathers\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Heathers\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "who are the actors in the movies written by the writer of [If a Man Answers]",
+    "gold": [
+      "Debbie Reynolds",
+      "Julie Andrews",
+      "Elvis Presley",
+      "Mary Tyler Moore"
+    ],
+    "response": "START \"If a Man Answers\" -> directed_by <- directed_by -> starred_actors RETURN ?x EXCEPT \"If a Man Answers\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what genres are the films written by [Union Pacific] screenwriters",
+    "gold": [
+      "Western"
+    ],
+    "response": "START \"Union Pacific\" -> directed_by <- written_by -> has_genre RETURN ?x EXCEPT \"Union Pacific\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors in the films written by the screenwriter of [Hart's War]",
+    "gold": [
+      "Richard Masur",
+      "Richard Jordan",
+      "Laurence Fishburne",
+      "Sean Connery"
+    ],
+    "response": "START \"Hart's War\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Hart's War\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "the movies written by [Homer] were in which genres",
+    "gold": [
+      "Drama",
+      "Comedy",
+      "Adventure"
+    ],
+    "response": "START \"Homer\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "what are the genres of the films written by [Andrew Solt]",
+    "gold": [
+      "Drama",
+      "Romance",
+      "Music",
+      "Biography"
+    ],
+    "response": "START \"Andrew Solt\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what were the release years of the movies that share screenwriters with the movie [Go]",
+    "gold": [
+      "2003",
+      "2000",
+      "2007"
+    ],
+    "response": "START \"Go\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Go\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who is the author of [Poseidon]",
+    "gold": [
+      "Paul Gallico"
+    ],
+    "response": "START \"Poseidon\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when did the movies written by [Jack Black] release",
+    "gold": [
+      "2006"
+    ],
+    "response": "START \"Jack Black\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by [Jo\u00e3o Falc\u00e3o] were released in which years",
+    "gold": [
+      "2000"
+    ],
+    "response": "START \"Jo\u00e3o Falc\u00e3o\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "when did the movies written by [Travis Beacham] release",
+    "gold": [
+      "2013"
+    ],
+    "response": "START \"Travis Beacham\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the movies written by the screenwriter of [The Pawnbroker] starred who",
+    "gold": [
+      "Madeleine Stowe"
+    ],
+    "response": "START \"The Pawnbroker\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"The Pawnbroker\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who is listed as director of [S\u00e9bastien Japrisot] written films",
+    "gold": [
+      "Jean Becker"
+    ],
+    "response": "START \"S\u00e9bastien Japrisot\" <- directed_by -> directed_by RETURN ?x EXCEPT \"S\u00e9bastien Japrisot\"",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the films written by the writer of [Follow Me Quietly] starred who",
+    "gold": [
+      "Raymond Burr",
+      "Audrey Long",
+      "Steve Brodie",
+      "Douglas Fowley"
+    ],
+    "response": "START \"Follow Me Quietly\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Follow Me Quietly\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who is the writer of the film [Hunger]",
+    "gold": [
+      "L.D. Goffigan"
+    ],
+    "response": "START \"Hunger\" -> directed_by RETURN ?x",
+    "hop": 1,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "when did the films written by [Dirty Rotten Scoundrels] writers release",
+    "gold": [
+      "1986",
+      "1992",
+      "1964",
+      "1974"
+    ],
+    "response": "START \"Dirty Rotten Scoundrels\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Dirty Rotten Scoundrels\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "when did the movies release whose writers also wrote [Memories of Me]",
+    "gold": [
+      "1992",
+      "1998",
+      "2001",
+      "1995"
+    ],
+    "response": "START \"Memories of Me\" -> directed_by <- written_by -> release_year RETURN ?x EXCEPT \"Memories of Me\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the actors in the films written by [Antonio Macia]",
+    "gold": [
+      "Ben Rosenfield",
+      "Jesse Eisenberg",
+      "Justin Bartha",
+      "Ari Graynor"
+    ],
+    "response": "START \"Antonio Macia\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who starred films for the screenwriter of [Never Take Sweets from a Stranger]",
+    "gold": [
+      "Wayne Robson",
+      "Richard Farnsworth",
+      "Jackie Burroughs",
+      "Ken Pogue"
+    ],
+    "response": "START \"Never Take Sweets from a Stranger\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"Never Take Sweets from a Stranger\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who starred movies for the writer of [The Whistle Blower]",
+    "gold": [
+      "Irene Papas",
+      "Genevi\u00e8ve Bujold",
+      "Vanessa Redgrave",
+      "Glenda Jackson"
+    ],
+    "response": "START \"The Whistle Blower\" -> directed_by <- written_by -> starred_actors RETURN ?x EXCEPT \"The Whistle Blower\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what are the genres of the films written by [Meggie McFadden]",
+    "gold": [
+      "Mystery",
+      "Comedy"
+    ],
+    "response": "START \"Meggie McFadden\" <- directed_by -> has_genre RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who starred in the movies written by [Bart Baker]",
+    "gold": [
+      "Lisa Eilbacher",
+      "Ron Silver",
+      "Ben Cross",
+      "Pierce Brosnan"
+    ],
+    "response": "START \"Bart Baker\" <- directed_by -> starred_actors RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "the screenwriter [Evan Dunsky] co-wrote movies with who",
+    "gold": [
+      "John A. Russo",
+      "Thomas Rendon",
+      "Jeffrey Delman",
+      "Keith Reddin"
+    ],
+    "response": "START \"Evan Dunsky\" <- written_by -> directed_by RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the directors of movies whose writers also wrote [Rage in Heaven]",
+    "gold": [
+      "Frank Capra",
+      "Sam Wood",
+      "Alfred Hitchcock",
+      "Herbert Ross"
+    ],
+    "response": "START \"Rage in Heaven\" -> directed_by <- written_by -> directed_by RETURN ?x EXCEPT \"Rage in Heaven\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what are the main languages in [William Davies] written films",
+    "gold": [
+      "English"
+    ],
+    "response": "START \"William Davies\" <- directed_by -> in_language RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  },
+  {
+    "question": "who are the directors of the movies written by the writer of [The Lodger]",
+    "gold": [
+      "John Brahm",
+      "Byron Haskin",
+      "John Farrow",
+      "Anatole Litvak"
+    ],
+    "response": "START \"The Lodger\" -> directed_by <- written_by -> directed_by RETURN ?x EXCEPT \"The Lodger\"",
+    "hop": 3,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "no_gold_path"
+  },
+  {
+    "question": "what were the release dates of [David Boehm] written films",
+    "gold": [
+      "1933",
+      "1943"
+    ],
+    "response": "START \"David Boehm\" <- directed_by -> release_year RETURN ?x",
+    "hop": 2,
+    "category_auto": "relation_direction_or_entity",
+    "note": "parses, executes wrong (see proof)",
+    "category": "relation"
+  }
+]
