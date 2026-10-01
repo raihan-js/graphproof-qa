@@ -33,7 +33,7 @@ Evaluation: 2,000 held-out test questions per hop level (6,000 total), Hits@1.
 | 3-hop | 66.3% | 93.0% | 94.9% | **+26.7** |
 | **Overall** | **34.2%** | **93.3%** | **96.8%** | **+59.1** |
 
-System B produced **zero parse failures** across 6,000 generations — the LoRA learned the grammar cold. System C adds +3.5 overall (largest on hop-2, +7.5), proving structural enforcement helps where ambiguity is highest.
+System B produced **zero parse failures** across 6,000 generations — the LoRA learned the grammar cold. System C adds +3.5 overall (largest on hop-2, +7.5), proving structural enforcement helps where ambiguity is highest. The A-vs-B difference is overwhelmingly significant (McNemar exact p≈0 on 6,000 paired items: 3,645 improvements vs 101 regressions).
 
 Why does A fail so badly? It memorizes. On unseen entities it confabulates plausible-sounding wrong answers ("Michael Almereyda directed..." — a real director, wrong film). B can't confabulate entities the same way: its queries execute or return nothing.
 
@@ -46,7 +46,7 @@ The headline experiment. We renamed 200 entities to novel strings the models nev
 | B (compile-then-execute) | **81.4%** |
 | A (direct answer) | **5.8%** |
 
-A **75.6-point gap**. System B copies the unseen name into a query and lets the graph do the work. System A, trained on the old names, collapses. This is grounding vs memorisation, measured — not asserted.
+A **75.6-point gap**, significant at McNemar p=1.2e−84 (411 vs 10 discordant pairs on 531 items). System B copies the unseen name into a query and lets the graph do the work. System A, trained on the old names, collapses. This is grounding vs memorisation, measured — not asserted.
 
 Two more conditions, reported honestly:
 - **Swapped triples** (500 edits): B follows edits to new answers 95.6%. True by construction (the executor reads the edited graph) — a demonstration, not a discovery.
