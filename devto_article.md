@@ -1,3 +1,5 @@
+![graphproof-qa results](https://raw.githubusercontent.com/raihan-js/graphproof-qa/main/images/graphproof.png)
+
 # GraphProof-QA: Teaching a Small Model to Prove Its Answers
 
 *Or: what happens when a 1.5B model must show its work as an executable query — 93.3% vs 34.2%, and 81.4% vs 5.8% on names it never saw.*
