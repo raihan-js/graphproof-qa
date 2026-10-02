@@ -1,0 +1,402 @@
+[
+  {
+    "question": "who are the actors in [Tension]",
+    "answer": "Richard Basehart|Cyd Charisse|Barry Sullivan|Audrey Totter"
+  },
+  {
+    "question": "what movies was [David O'Hara] an actor in",
+    "answer": "Fever"
+  },
+  {
+    "question": "what is the genre of the movie [Black Like Me]",
+    "answer": "Drama"
+  },
+  {
+    "question": "what is the genre for the film [Anna Christie]",
+    "answer": "Drama"
+  },
+  {
+    "question": "the director of [Supergirl] was",
+    "answer": "Jeannot Szwarc"
+  },
+  {
+    "question": "who acted in the movie [Loft]",
+    "answer": "Miki Nakatani|Etsushi Toyokawa"
+  },
+  {
+    "question": "who are the actors in [Earthlings]",
+    "answer": "Joaquin Phoenix"
+  },
+  {
+    "question": "what movies can be described with [john pasquin]",
+    "answer": "The Santa Clause|Jungle 2 Jungle|Joe Somebody"
+  },
+  {
+    "question": "what was [Ron Mann] the director of",
+    "answer": "Grass|Comic Book Confidential"
+  },
+  {
+    "question": "what films did [Paul Gottlieb] write",
+    "answer": "In Praise of Older Women"
+  },
+  {
+    "question": "which person wrote [Mean Girls]",
+    "answer": "Tina Fey|Rosalind Wiseman"
+  },
+  {
+    "question": "what films did [Clara Choveaux] star in",
+    "answer": "Tiresia"
+  },
+  {
+    "question": "what films did [Jason Mewes] star in",
+    "answer": "Jay and Silent Bob Strike Back|Clerks II"
+  },
+  {
+    "question": "who stars in [Fahrenheit 9/11]",
+    "answer": "George W. Bush"
+  },
+  {
+    "question": "who is the director of [The Host]",
+    "answer": "Andrew Niccol"
+  },
+  {
+    "question": "who was the director of [Aut\u00f3mata]",
+    "answer": "Gabe Ib\u00e1\u00f1ez"
+  },
+  {
+    "question": "what year was [Marvin's Room] released",
+    "answer": "1996"
+  },
+  {
+    "question": "what movies was [James P. Cavanagh] the writer of",
+    "answer": "Murder at the Gallop"
+  },
+  {
+    "question": "what does [Veronica Sywak] star in",
+    "answer": "Welcome to the Jungle"
+  },
+  {
+    "question": "what is a film written by [Don Hall]",
+    "answer": "Winnie the Pooh"
+  },
+  {
+    "question": "who is the director of [The Unfaithful]",
+    "answer": "Vincent Sherman"
+  },
+  {
+    "question": "what films are about [bengal]",
+    "answer": "Pather Panchali"
+  },
+  {
+    "question": "who wrote the screenplay for [A Boy and His Dog]",
+    "answer": "Harlan Ellison|L.Q. Jones"
+  },
+  {
+    "question": "the director of [Inhale] was",
+    "answer": "Baltasar Korm\u00e1kur"
+  },
+  {
+    "question": "what was the release date of the movie [The Student Prince in Old Heidelberg]",
+    "answer": "1927"
+  },
+  {
+    "question": "what film did [Leslie Sands] write",
+    "answer": "Another Man's Poison"
+  },
+  {
+    "question": "what is the genre of [Big Night]",
+    "answer": "Drama"
+  },
+  {
+    "question": "what movies was [Marianne Faithfull] an actor in",
+    "answer": "Irina Palm|The Girl on a Motorcycle|Hamlet"
+  },
+  {
+    "question": "who is the director of [Aliens]",
+    "answer": "James Cameron"
+  },
+  {
+    "question": "who is the creator of the film script for [The Accidental Tourist]",
+    "answer": "Lawrence Kasdan|Anne Tyler|Frank Galati"
+  },
+  {
+    "question": "can you give a few words describing what [Wanderlust] is about",
+    "answer": "jennifer aniston|paul rudd"
+  },
+  {
+    "question": "what sort of film is [The Cotton Club]",
+    "answer": "Drama|Crime"
+  },
+  {
+    "question": "the director of [The Sniper] was",
+    "answer": "Edward Dmytryk"
+  },
+  {
+    "question": "who is listed as director for [Variety Lights]",
+    "answer": "Federico Fellini|Alberto Lattuada"
+  },
+  {
+    "question": "which words describe [Needful Things]",
+    "answer": "stephen king"
+  },
+  {
+    "question": "who acted in [The Beast with Five Fingers]",
+    "answer": "Peter Lorre"
+  },
+  {
+    "question": "who starred in [Blonde Ambition]",
+    "answer": "Luke Wilson|Jessica Simpson"
+  },
+  {
+    "question": "who is the creator of the film script for [Bloody Birthday]",
+    "answer": "Ed Hunt"
+  },
+  {
+    "question": "who acted in [Identity Thief]",
+    "answer": "Jason Bateman|Melissa McCarthy"
+  },
+  {
+    "question": "describe the movie [The Dawn Patrol] in a few words",
+    "answer": "edmund goulding"
+  },
+  {
+    "question": "describe [P.S. I Love You] in a few words",
+    "answer": "richard lagravenese"
+  },
+  {
+    "question": "what is a movie written by [Eleanor Smith]",
+    "answer": "The Man in Grey"
+  },
+  {
+    "question": "what type of movie is [Joe Somebody]",
+    "answer": "Drama|Comedy"
+  },
+  {
+    "question": "what movies did [Max Pomeranc] star in",
+    "answer": "Searching for Bobby Fischer"
+  },
+  {
+    "question": "when was the film [Cry of the Banshee] released",
+    "answer": "1970"
+  },
+  {
+    "question": "which movies are about [existentialist]",
+    "answer": "Harold and Maude"
+  },
+  {
+    "question": "who starred in [Whisper of the Heart]",
+    "answer": "Shigeru Muroi|Takashi Tachibana|Issei Takahashi"
+  },
+  {
+    "question": "which screenwriter wrote the script for [The Traveler]",
+    "answer": "Abbas Kiarostami"
+  },
+  {
+    "question": "can you name a film directed by [Taylor Hackford]",
+    "answer": "Ray|Parker|Proof of Life|An Officer and a Gentleman|Dolores Claiborne|Against All Odds|White Nights|Everybody's All-American|Love Ranch|The Idolmaker"
+  },
+  {
+    "question": "what is a movie written by [James Marsh]",
+    "answer": "The King|Wisconsin Death Trip"
+  },
+  {
+    "question": "what is the genre of [The Hot Chick]",
+    "answer": "Comedy"
+  },
+  {
+    "question": "describe [The Bedford Incident] in a few words",
+    "answer": "bd-r|cold war|sidney poitier"
+  },
+  {
+    "question": "which movie did [Robert Buckner] write",
+    "answer": "Yankee Doodle Dandy|Dodge City|Santa Fe Trail|Virginia City|Confidential Agent|Bright Victory"
+  },
+  {
+    "question": "the director of [Copper Mountain] was",
+    "answer": "David Mitchell"
+  },
+  {
+    "question": "which movie was [Savage Steve Holland] the director for",
+    "answer": "One Crazy Summer"
+  },
+  {
+    "question": "what films did [Freddy Flores] act in",
+    "answer": "Bolivia"
+  },
+  {
+    "question": "who was the director of [The Bigamist]",
+    "answer": "Ida Lupino"
+  },
+  {
+    "question": "what was the genre of the film [54]",
+    "answer": "Drama"
+  },
+  {
+    "question": "[Erik L\u00f8chen] was the director on which movies",
+    "answer": "The Chasers"
+  },
+  {
+    "question": "who is the director that directed [Holding Trevor]",
+    "answer": "Rosser Goodman"
+  },
+  {
+    "question": "who acted in the movie [A Little Stiff]",
+    "answer": "Erin McKim"
+  },
+  {
+    "question": "who in the world wrote [In Name Only]",
+    "answer": "Bessie Breuer"
+  },
+  {
+    "question": "what is the genre for [Crimewave]",
+    "answer": "Comedy|Crime"
+  },
+  {
+    "question": "[My Fellow Americans], when was it released",
+    "answer": "1996"
+  },
+  {
+    "question": "what topics is [Cashback] about",
+    "answer": "short"
+  },
+  {
+    "question": "the director of [Underclassman] was who",
+    "answer": "Marcos Siega"
+  },
+  {
+    "question": "what are some words that describe movie [Bye Bye Birdie]",
+    "answer": "bd-r|broadway"
+  },
+  {
+    "question": "describe [The Book of Life] in a few words",
+    "answer": "hal hartley"
+  },
+  {
+    "question": "who directed the movie [The Great Northfield Minnesota Raid]",
+    "answer": "Philip Kaufman"
+  },
+  {
+    "question": "what was the genre of [Abandoned]",
+    "answer": "Thriller"
+  },
+  {
+    "question": "what did [Lois Weber] direct",
+    "answer": "The Blot|Hypocrites"
+  },
+  {
+    "question": "who's the director of [Dark Command]",
+    "answer": "Raoul Walsh"
+  },
+  {
+    "question": "what films are about [jennifer lawrence]",
+    "answer": "The Hunger Games|Silver Linings Playbook|American Hustle|Winter's Bone|House at the End of the Street|The Poker House"
+  },
+  {
+    "question": "what is the genre of [The Son of Kong]",
+    "answer": "Adventure"
+  },
+  {
+    "question": "who is the director that directed [On the Line]",
+    "answer": "Eric Bross"
+  },
+  {
+    "question": "when was the movie [Rollover] released",
+    "answer": "1981"
+  },
+  {
+    "question": "which person wrote [Pathfinder]",
+    "answer": "Nils Gaup"
+  },
+  {
+    "question": "what was the genre of [Hunting Elephants]",
+    "answer": "Comedy|Crime"
+  },
+  {
+    "question": "what is a film written by [Erik Balling]",
+    "answer": "The Olsen Gang|The Olsen Gang on the Track"
+  },
+  {
+    "question": "who directed the movie [The Face Behind the Mask]",
+    "answer": "Robert Florey"
+  },
+  {
+    "question": "what words describe [The Front Page]",
+    "answer": "billy wilder|jack lemmon|walter matthau"
+  },
+  {
+    "question": "which movies did [Jos\u00e9 Henrique Fonseca] direct",
+    "answer": "The Man of the Year"
+  },
+  {
+    "question": "who was [The Way Way Back] directed by",
+    "answer": "Nat Faxon|Jim Rash"
+  },
+  {
+    "question": "what does [Ian Holm] appear in",
+    "answer": "Ratatouille|Brazil|Naked Lunch|Kafka|Night Falls on Manhattan|The Emperor's New Clothes|Wisconsin Death Trip|Dreamchild|Esther Kahn"
+  },
+  {
+    "question": "what is the language spoken in the film [Control Room]",
+    "answer": "English"
+  },
+  {
+    "question": "[The Nightmare Before Christmas] is a film written by this person",
+    "answer": "Tim Burton"
+  },
+  {
+    "question": "what kind of film is [All the President's Men]",
+    "answer": "Thriller"
+  },
+  {
+    "question": "[Sergio Martino] was the director of which films",
+    "answer": "Torso|The Case of the Scorpion's Tail|All the Colors of the Dark|Your Vice Is a Locked Room and Only I Have the Key|Casablanca Express|The Suspicious Death of a Minor|Gambling City"
+  },
+  {
+    "question": "who is the director for [Happy, Texas]",
+    "answer": "Mark Illsley"
+  },
+  {
+    "question": "which movies was [Steve Carell] a writer on",
+    "answer": "The 40-Year-Old Virgin"
+  },
+  {
+    "question": "what language is [Dr. Goldfoot and the Girl Bombs] in",
+    "answer": "English|Italian"
+  },
+  {
+    "question": "the director of [Beyond a Reasonable Doubt] was",
+    "answer": "Peter Hyams"
+  },
+  {
+    "question": "what was the release year of [Wolves]",
+    "answer": "1999"
+  },
+  {
+    "question": "who is the creator of the film script for [Apocalypse Now]",
+    "answer": "Francis Ford Coppola|Michael Herr|John Milius"
+  },
+  {
+    "question": "what was the release year of the film [Tyson]",
+    "answer": "1995"
+  },
+  {
+    "question": "who acted in the movie [Amour]",
+    "answer": "Isabelle Huppert|Emmanuelle Riva"
+  },
+  {
+    "question": "what genre is [The Loved Ones] in",
+    "answer": "Horror"
+  },
+  {
+    "question": "the film [The Flower in His Mouth] starred which actors",
+    "answer": "Jennifer O'Neill"
+  },
+  {
+    "question": "what was the genre of the movie [Another 48 Hrs.]",
+    "answer": "Comedy|Action|Crime"
+  },
+  {
+    "question": "which movies was [Boyd Oxlade] the writer of",
+    "answer": "Death in Brunswick"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "original": "who are the actors in [Tension]",
+    "paraphrase": "Who are the performers in [Tension]?",
+    "answer": "Richard Basehart|Cyd Charisse|Barry Sullivan|Audrey Totter"
+  },
+  {
+    "original": "what movies was [David O'Hara] an actor in",
+    "paraphrase": "In which films did [David O'Hara] perform as an actor?",
+    "answer": "Fever"
+  },
+  {
+    "original": "what is the genre of the movie [Black Like Me]",
+    "paraphrase": "What type of genre does the film [Black Like Me] belong to?",
+    "answer": "Drama"
+  },
+  {
+    "original": "what is the genre for the film [Anna Christie]",
+    "paraphrase": "What genre does the film [Anna Christie] belong to?",
+    "answer": "Drama"
+  },
+  {
+    "original": "the director of [Supergirl] was",
+    "paraphrase": "who was the director of [Supergirl]?",
+    "answer": "Jeannot Szwarc"
+  },
+  {
+    "original": "who acted in the movie [Loft]",
+    "paraphrase": "Who performed in the film [Loft]?",
+    "answer": "Miki Nakatani|Etsushi Toyokawa"
+  },
+  {
+    "original": "who are the actors in [Earthlings]",
+    "paraphrase": "Who are the performers in [Earthlings]?",
+    "answer": "Joaquin Phoenix"
+  },
+  {
+    "original": "what movies can be described with [john pasquin]",
+    "paraphrase": "Which films can be characterized by [john pasquin]?",
+    "answer": "The Santa Clause|Jungle 2 Jungle|Joe Somebody"
+  },
+  {
+    "original": "what was [Ron Mann] the director of",
+    "paraphrase": "What position did [Ron Mann] hold as a director?",
+    "answer": "Grass|Comic Book Confidential"
+  },
+  {
+    "original": "what films did [Paul Gottlieb] write",
+    "paraphrase": "Which movies were written by [Paul Gottlieb]?",
+    "answer": "In Praise of Older Women"
+  },
+  {
+    "original": "which person wrote [Mean Girls]",
+    "paraphrase": "Who is the author of [Mean Girls]?",
+    "answer": "Tina Fey|Rosalind Wiseman"
+  },
+  {
+    "original": "what films did [Clara Choveaux] star in",
+    "paraphrase": "Which movies featured [Clara Choveaux]?",
+    "answer": "Tiresia"
+  },
+  {
+    "original": "what films did [Jason Mewes] star in",
+    "paraphrase": "Which movies featured [Jason Mewes] as a star?",
+    "answer": "Jay and Silent Bob Strike Back|Clerks II"
+  },
+  {
+    "original": "who stars in [Fahrenheit 9/11]",
+    "paraphrase": "Who is featured in [Fahrenheit 9/11]?",
+    "answer": "George W. Bush"
+  },
+  {
+    "original": "who is the director of [The Host]",
+    "paraphrase": "Who directed [The Host]?",
+    "answer": "Andrew Niccol"
+  },
+  {
+    "original": "who was the director of [Autómata]",
+    "paraphrase": "Who directed [Autómata]?",
+    "answer": "Gabe Ibáñez"
+  },
+  {
+    "original": "what year was [Marvin's Room] released",
+    "paraphrase": "In what year did [Marvin's Room] come out?",
+    "answer": "1996"
+  },
+  {
+    "original": "what movies was [James P. Cavanagh] the writer of",
+    "paraphrase": "Which films did [James P. Cavanagh] write?",
+    "answer": "Murder at the Gallop"
+  },
+  {
+    "original": "what does [Veronica Sywak] star in",
+    "paraphrase": "In which productions does [Veronica Sywak] appear?",
+    "answer": "Welcome to the Jungle"
+  },
+  {
+    "original": "what is a film written by [Don Hall]",
+    "paraphrase": "What is a movie created by [Don Hall]?",
+    "answer": "Winnie the Pooh"
+  },
+  {
+    "original": "who is the director of [The Unfaithful]",
+    "paraphrase": "Who directs [The Unfaithful]?",
+    "answer": "Vincent Sherman"
+  },
+  {
+    "original": "what films are about [bengal]",
+    "paraphrase": "Which movies focus on [bengal]?",
+    "answer": "Pather Panchali"
+  },
+  {
+    "original": "who wrote the screenplay for [A Boy and His Dog]",
+    "paraphrase": "Who is the author of the screenplay for [A Boy and His Dog]?",
+    "answer": "Harlan Ellison|L.Q. Jones"
+  },
+  {
+    "original": "the director of [Inhale] was",
+    "paraphrase": "Who was the director of [Inhale]?",
+    "answer": "Baltasar Kormákur"
+  },
+  {
+    "original": "what was the release date of the movie [The Student Prince in Old Heidelberg]",
+    "paraphrase": "When did the movie [The Student Prince in Old Heidelberg] come out?",
+    "answer": "1927"
+  },
+  {
+    "original": "what film did [Leslie Sands] write",
+    "paraphrase": "Which movie was written by [Leslie Sands]?",
+    "answer": "Another Man's Poison"
+  },
+  {
+    "original": "what is the genre of [Big Night]",
+    "paraphrase": "What type of genre does [Big Night] belong to?",
+    "answer": "Drama"
+  },
+  {
+    "original": "what movies was [Marianne Faithfull] an actor in",
+    "paraphrase": "In which films did [Marianne Faithfull] perform as an actor?",
+    "answer": "Irina Palm|The Girl on a Motorcycle|Hamlet"
+  },
+  {
+    "original": "who is the director of [Aliens]",
+    "paraphrase": "Who directed [Aliens]?",
+    "answer": "James Cameron"
+  },
+  {
+    "original": "who is the creator of the film script for [The Accidental Tourist]",
+    "paraphrase": "Who authored the screenplay for [The Accidental Tourist]?",
+    "answer": "Lawrence Kasdan|Anne Tyler|Frank Galati"
+  },
+  {
+    "original": "can you give a few words describing what [Wanderlust] is about",
+    "paraphrase": "Could you provide a brief description of what [Wanderlust] entails?",
+    "answer": "jennifer aniston|paul rudd"
+  },
+  {
+    "original": "what sort of film is [The Cotton Club]",
+    "paraphrase": "What type of movie is [The Cotton Club]?",
+    "answer": "Drama|Crime"
+  },
+  {
+    "original": "the director of [The Sniper] was",
+    "paraphrase": "who was the director of [The Sniper]?",
+    "answer": "Edward Dmytryk"
+  },
+  {
+    "original": "who is listed as director for [Variety Lights]",
+    "paraphrase": "Who is identified as the director of [Variety Lights]?",
+    "answer": "Federico Fellini|Alberto Lattuada"
+  },
+  {
+    "original": "which words describe [Needful Things]",
+    "paraphrase": "What terms characterize [Needful Things]?",
+    "answer": "stephen king"
+  },
+  {
+    "original": "who acted in [The Beast with Five Fingers]",
+    "paraphrase": "Who performed in [The Beast with Five Fingers]?",
+    "answer": "Peter Lorre"
+  },
+  {
+    "original": "who starred in [Blonde Ambition]",
+    "paraphrase": "Who was the lead actor in [Blonde Ambition]?",
+    "answer": "Luke Wilson|Jessica Simpson"
+  },
+  {
+    "original": "who is the creator of the film script for [Bloody Birthday]",
+    "paraphrase": "Who authored the film script for [Bloody Birthday]?",
+    "answer": "Ed Hunt"
+  },
+  {
+    "original": "who acted in [Identity Thief]",
+    "paraphrase": "Who was part of the cast in [Identity Thief]?",
+    "answer": "Jason Bateman|Melissa McCarthy"
+  },
+  {
+    "original": "describe the movie [The Dawn Patrol] in a few words",
+    "paraphrase": "Can you summarize the film [The Dawn Patrol] briefly?",
+    "answer": "edmund goulding"
+  },
+  {
+    "original": "describe [P.S. I Love You] in a few words",
+    "paraphrase": "summarize [P.S. I Love You] in a few words",
+    "answer": "richard lagravenese"
+  },
+  {
+    "original": "what is a movie written by [Eleanor Smith]",
+    "paraphrase": "Can you name a film authored by [Eleanor Smith]?",
+    "answer": "The Man in Grey"
+  },
+  {
+    "original": "what type of movie is [Joe Somebody]",
+    "paraphrase": "What kind of film is [Joe Somebody]?",
+    "answer": "Drama|Comedy"
+  },
+  {
+    "original": "what movies did [Max Pomeranc] star in",
+    "paraphrase": "In which films did [Max Pomeranc] appear?",
+    "answer": "Searching for Bobby Fischer"
+  },
+  {
+    "original": "when was the film [Cry of the Banshee] released",
+    "paraphrase": "What year did the film [Cry of the Banshee] come out?",
+    "answer": "1970"
+  },
+  {
+    "original": "which movies are about [existentialist]",
+    "paraphrase": "What films focus on [existentialist]?",
+    "answer": "Harold and Maude"
+  },
+  {
+    "original": "who starred in [Whisper of the Heart]",
+    "paraphrase": "Who was the lead actor in [Whisper of the Heart]?",
+    "answer": "Shigeru Muroi|Takashi Tachibana|Issei Takahashi"
+  },
+  {
+    "original": "which screenwriter wrote the script for [The Traveler]",
+    "paraphrase": "Who is the screenwriter that penned the script for [The Traveler]?",
+    "answer": "Abbas Kiarostami"
+  },
+  {
+    "original": "can you name a film directed by [Taylor Hackford]",
+    "paraphrase": "Could you mention a movie that was directed by [Taylor Hackford]?",
+    "answer": "Ray|Parker|Proof of Life|An Officer and a Gentleman|Dolores Claiborne|Against All Odds|White Nights|Everybody's All-American|Love Ranch|The Idolmaker"
+  },
+  {
+    "original": "what is a movie written by [James Marsh]",
+    "paraphrase": "What film was created by [James Marsh]?",
+    "answer": "The King|Wisconsin Death Trip"
+  },
+  {
+    "original": "what is the genre of [The Hot Chick]",
+    "paraphrase": "What type of genre does [The Hot Chick] belong to?",
+    "answer": "Comedy"
+  },
+  {
+    "original": "describe [The Bedford Incident] in a few words",
+    "paraphrase": "summarize [The Bedford Incident] briefly",
+    "answer": "bd-r|cold war|sidney poitier"
+  },
+  {
+    "original": "which movie did [Robert Buckner] write",
+    "paraphrase": "What film was written by [Robert Buckner]?",
+    "answer": "Yankee Doodle Dandy|Dodge City|Santa Fe Trail|Virginia City|Confidential Agent|Bright Victory"
+  },
+  {
+    "original": "the director of [Copper Mountain] was",
+    "paraphrase": "Who was the director of [Copper Mountain]?",
+    "answer": "David Mitchell"
+  },
+  {
+    "original": "which movie was [Savage Steve Holland] the director for",
+    "paraphrase": "Which film did [Savage Steve Holland] direct?",
+    "answer": "One Crazy Summer"
+  },
+  {
+    "original": "what films did [Freddy Flores] act in",
+    "paraphrase": "In which movies did [Freddy Flores] perform?",
+    "answer": "Bolivia"
+  },
+  {
+    "original": "who was the director of [The Bigamist]",
+    "paraphrase": "Who directed [The Bigamist]?",
+    "answer": "Ida Lupino"
+  },
+  {
+    "original": "what was the genre of the film [54]",
+    "paraphrase": "What type of genre did the film [54] belong to?",
+    "answer": "Drama"
+  },
+  {
+    "original": "[Erik Løchen] was the director on which movies",
+    "paraphrase": "Which movies did [Erik Løchen] direct?",
+    "answer": "The Chasers"
+  },
+  {
+    "original": "who is the director that directed [Holding Trevor]",
+    "paraphrase": "Who is the director of [Holding Trevor]?",
+    "answer": "Rosser Goodman"
+  },
+  {
+    "original": "who acted in the movie [A Little Stiff]",
+    "paraphrase": "Who performed in the film [A Little Stiff]?",
+    "answer": "Erin McKim"
+  },
+  {
+    "original": "who in the world wrote [In Name Only]",
+    "paraphrase": "Who authored [In Name Only]?",
+    "answer": "Bessie Breuer"
+  },
+  {
+    "original": "what is the genre for [Crimewave]",
+    "paraphrase": "What genre does [Crimewave] belong to?",
+    "answer": "Comedy|Crime"
+  },
+  {
+    "original": "[My Fellow Americans], when was it released",
+    "paraphrase": "When did [My Fellow Americans] come out?",
+    "answer": "1996"
+  },
+  {
+    "original": "what topics is [Cashback] about",
+    "paraphrase": "What subjects does [Cashback] cover?",
+    "answer": "short"
+  },
+  {
+    "original": "the director of [Underclassman] was who",
+    "paraphrase": "Who was the director of [Underclassman]?",
+    "answer": "Marcos Siega"
+  },
+  {
+    "original": "what are some words that describe movie [Bye Bye Birdie]",
+    "paraphrase": "What are various terms that characterize the film [Bye Bye Birdie]?",
+    "answer": "bd-r|broadway"
+  },
+  {
+    "original": "describe [The Book of Life] in a few words",
+    "paraphrase": "Can you summarize [The Book of Life] briefly?",
+    "answer": "hal hartley"
+  },
+  {
+    "original": "who directed the movie [The Great Northfield Minnesota Raid]",
+    "paraphrase": "Who was the director of the film [The Great Northfield Minnesota Raid]?",
+    "answer": "Philip Kaufman"
+  },
+  {
+    "original": "what was the genre of [Abandoned]",
+    "paraphrase": "What type of genre does [Abandoned] belong to?",
+    "answer": "Thriller"
+  },
+  {
+    "original": "what did [Lois Weber] direct",
+    "paraphrase": "What films were directed by [Lois Weber]?",
+    "answer": "The Blot|Hypocrites"
+  },
+  {
+    "original": "who's the director of [Dark Command]",
+    "paraphrase": "Who is the person directing [Dark Command]?",
+    "answer": "Raoul Walsh"
+  },
+  {
+    "original": "what films are about [jennifer lawrence]",
+    "paraphrase": "Which movies feature [jennifer lawrence]?",
+    "answer": "The Hunger Games|Silver Linings Playbook|American Hustle|Winter's Bone|House at the End of the Street|The Poker House"
+  },
+  {
+    "original": "what is the genre of [The Son of Kong]",
+    "paraphrase": "What type of genre does [The Son of Kong] belong to?",
+    "answer": "Adventure"
+  },
+  {
+    "original": "who is the director that directed [On the Line]",
+    "paraphrase": "Who is the filmmaker responsible for directing [On the Line]?",
+    "answer": "Eric Bross"
+  },
+  {
+    "original": "when was the movie [Rollover] released",
+    "paraphrase": "What year did the movie [Rollover] come out?",
+    "answer": "1981"
+  },
+  {
+    "original": "which person wrote [Pathfinder]",
+    "paraphrase": "Who is the author of [Pathfinder]?",
+    "answer": "Nils Gaup"
+  },
+  {
+    "original": "what was the genre of [Hunting Elephants]",
+    "paraphrase": "What type of genre does [Hunting Elephants] belong to?",
+    "answer": "Comedy|Crime"
+  },
+  {
+    "original": "what is a film written by [Erik Balling]",
+    "paraphrase": "What film was created by [Erik Balling]?",
+    "answer": "The Olsen Gang|The Olsen Gang on the Track"
+  },
+  {
+    "original": "who directed the movie [The Face Behind the Mask]",
+    "paraphrase": "Who was the director of the film [The Face Behind the Mask]?",
+    "answer": "Robert Florey"
+  },
+  {
+    "original": "what words describe [The Front Page]",
+    "paraphrase": "Which terms characterize [The Front Page]?",
+    "answer": "billy wilder|jack lemmon|walter matthau"
+  },
+  {
+    "original": "which movies did [José Henrique Fonseca] direct",
+    "paraphrase": "What films were directed by [José Henrique Fonseca]?",
+    "answer": "The Man of the Year"
+  },
+  {
+    "original": "who was [The Way Way Back] directed by",
+    "paraphrase": "who directed [The Way Way Back]?",
+    "answer": "Nat Faxon|Jim Rash"
+  },
+  {
+    "original": "what does [Ian Holm] appear in",
+    "paraphrase": "In what productions does [Ian Holm] feature?",
+    "answer": "Ratatouille|Brazil|Naked Lunch|Kafka|Night Falls on Manhattan|The Emperor's New Clothes|Wisconsin Death Trip|Dreamchild|Esther Kahn"
+  },
+  {
+    "original": "what is the language spoken in the film [Control Room]",
+    "paraphrase": "What language is used in the movie [Control Room]?",
+    "answer": "English"
+  },
+  {
+    "original": "[The Nightmare Before Christmas] is a film written by this person",
+    "paraphrase": "Who is the writer of the film [The Nightmare Before Christmas]?",
+    "answer": "Tim Burton"
+  },
+  {
+    "original": "what kind of film is [All the President's Men]",
+    "paraphrase": "What type of movie is [All the President's Men]?",
+    "answer": "Thriller"
+  },
+  {
+    "original": "[Sergio Martino] was the director of which films",
+    "paraphrase": "Which films did [Sergio Martino] direct?",
+    "answer": "Torso|The Case of the Scorpion's Tail|All the Colors of the Dark|Your Vice Is a Locked Room and Only I Have the Key|Casablanca Express|The Suspicious Death of a Minor|Gambling City"
+  },
+  {
+    "original": "who is the director for [Happy, Texas]",
+    "paraphrase": "Who directed [Happy, Texas]?",
+    "answer": "Mark Illsley"
+  },
+  {
+    "original": "which movies was [Steve Carell] a writer on",
+    "paraphrase": "What films did [Steve Carell] contribute as a writer to?",
+    "answer": "The 40-Year-Old Virgin"
+  },
+  {
+    "original": "what language is [Dr. Goldfoot and the Girl Bombs] in",
+    "paraphrase": "In what language can [Dr. Goldfoot and the Girl Bombs] be found?",
+    "answer": "English|Italian"
+  },
+  {
+    "original": "the director of [Beyond a Reasonable Doubt] was",
+    "paraphrase": "who was the director of [Beyond a Reasonable Doubt]?",
+    "answer": "Peter Hyams"
+  },
+  {
+    "original": "what was the release year of [Wolves]",
+    "paraphrase": "In which year was [Wolves] released?",
+    "answer": "1999"
+  },
+  {
+    "original": "who is the creator of the film script for [Apocalypse Now]",
+    "paraphrase": "Who was responsible for writing the screenplay for [Apocalypse Now]?",
+    "answer": "Francis Ford Coppola|Michael Herr|John Milius"
+  },
+  {
+    "original": "what was the release year of the film [Tyson]",
+    "paraphrase": "In what year was the film [Tyson] released?",
+    "answer": "1995"
+  },
+  {
+    "original": "who acted in the movie [Amour]",
+    "paraphrase": "Who performed in the film [Amour]?",
+    "answer": "Isabelle Huppert|Emmanuelle Riva"
+  },
+  {
+    "original": "what genre is [The Loved Ones] in",
+    "paraphrase": "What category does [The Loved Ones] belong to?",
+    "answer": "Horror"
+  },
+  {
+    "original": "the film [The Flower in His Mouth] starred which actors",
+    "paraphrase": "Which actors were featured in the film [The Flower in His Mouth]?",
+    "answer": "Jennifer O'Neill"
+  },
+  {
+    "original": "what was the genre of the movie [Another 48 Hrs.]",
+    "paraphrase": "What type of film is [Another 48 Hrs.]?",
+    "answer": "Comedy|Action|Crime"
+  },
+  {
+    "original": "which movies was [Boyd Oxlade] the writer of",
+    "paraphrase": "What films did [Boyd Oxlade] write?",
+    "answer": "Death in Brunswick"
+  }
+]

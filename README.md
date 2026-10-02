@@ -17,6 +17,10 @@ On an edited graph the executor follows the edit **by construction** — a demon
 
 Milestone 1 (DSL + executor) in progress. See `AGENTS.md`.
 
+## Paraphrase Robustness
+
+100 test questions paraphrased via OpenAI (gpt-4o-mini) with entities preserved. Stored in `data/paraphrases/paraphrases_100.json`.
+
 ## License
 
 MIT
