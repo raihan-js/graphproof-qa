@@ -48,7 +48,7 @@ The headline experiment. We renamed 200 entities to novel strings the models nev
 | B (compile-then-execute) | **81.4%** |
 | A (direct answer) | **5.8%** |
 
-A **75.6-point gap**, significant at McNemar p=1.2e−84 (411 vs 10 discordant pairs on 531 items). System B copies the unseen name into a query and lets the graph do the work. System A, trained on the old names, collapses. This is grounding vs memorisation, measured — not asserted.
+A **75.6-point gap**, significant at McNemar p < 1e−80 (411 vs 10 discordant pairs on 531 items; exact binomial p ≈ 1.6e−107, χ² approximation 1.2e−84). System B copies the unseen name into a query and lets the graph do the work. System A, trained on the old names, collapses. This is grounding vs memorisation, measured — not asserted.
 
 Two more conditions, reported honestly:
 - **Swapped triples** (500 edits): B follows edits to new answers 95.6%. True by construction (the executor reads the edited graph) — a demonstration, not a discovery.

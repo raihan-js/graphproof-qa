@@ -36,7 +36,7 @@ B vs A: McNemar exact p is effectively 0 (3,645 improvements vs 101 regressions 
 | B (compile-then-execute) | **81.4%** |
 | A (direct answer) | **5.8%** |
 
-A 75.6-point gap, McNemar p = 1.2e-84 (411 vs 10 discordant pairs).
+A 75.6-point gap, McNemar p < 1e-80 (411 vs 10 discordant pairs; the exact binomial p is ~1.6e-107, the χ² approximation 1.2e-84).
 
 Two more conditions, reported as they came out:
 
