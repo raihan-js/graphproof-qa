@@ -4,6 +4,8 @@ Small-model question answering that compiles to an executable graph query, with 
 
 ![GraphProof-QA results](images/graphproof.png)
 
+Write-up: [GraphProof-QA: Teaching a Small Model to Prove Its Answers](https://dev.to/raihan-js/graphproof-qa-teaching-a-small-model-to-prove-its-answers-3b2k)
+
 A Qwen2.5-1.5B-Instruct model is fine-tuned to translate MetaQA movie questions into a small typed path-query DSL instead of answering directly. Decoding is grammar-constrained to the knowledge-graph schema, the query executes over the graph, and every answer ships with the executed path as its proof.
 
 ## Why
